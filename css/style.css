@@ -37,8 +37,9 @@ a {
     font-size: 14px;
     letter-spacing: 2px;
     text-transform: uppercase;
-    display: inline-block;
-    margin: 0 auto;
+    margin: 20px auto 0 auto;
+    display: block;
+    width: fit-content;
 }
 
 a:hover {
