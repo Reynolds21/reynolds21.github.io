@@ -1,17 +1,28 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> Thomas Reynolds - CV</title>
+        <title>Thomas Reynolds - CV</title>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <h1>Thomas Reynolds</h1>
-        <p>My name is Thomas Reynolds, I am 22 and I am a computer science graduate looking for employment.</p>
-        <iframe src="assets/Thomas_Reynolds_CV.pdf" width="400" height="500"></iframe>
-        <a href="assets/Thomas_Reynolds_CV.pdf" download>Download My CV</a>
+        <nav class="navbar">
+            <span class="nav-name">Thomas Reynolds</span>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#cv">CV</a></li>
+            </ul>
+        </nav>
+
+        <div class="content">
+            <h1 id="about">Thomas Reynolds</h1>
+            <p>My name is Thomas Reynolds, I am 22 and I am a recent UCD Computer Science graduate looking for employment.</p>
+            <div id="cv">
+                <iframe src="assets/Thomas_Reynolds_CV.pdf" width="400" height="500"></iframe>
+                <a href="assets/Thomas_Reynolds_CV.pdf" download>Download My CV</a>
+            </div>
+        </div>
 
     </body>
 </html>
